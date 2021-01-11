@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Мой Минск</title>
+</head>
+
+<body bgcolor="#3366cc">
+	<bgsound src="Music/romans.mid" loop=3>
+		<h1 align=center>
+			<font color="ffff11">Фотографии Минска</font>
+		</h1>
+		<br>
+		<div align=center>
+			<marquee bgcolor="ffff11" behavior=alternate scrolldelay=100 width="37.5%" align=middle>
+				<font color="3366cc" size=8><b>Минск - мой любимый город!</b></font>
+			</marquee>
+		</div>
+		<br>
+		<table bgcolor=white align=center border=10 bordercolor="#99ccff">
+			<tr>
+				<td>
+					<img src="Images/minsk.jpg" width=152 height=107 align=middle alt="trinity suburb">
+				</td>
+				<td>
+					<img src="Images/minsk2.jpg" width=152 height=107 align=middle alt="Lenin street">
+				</td>
+				<td>
+					<img src="Images/venok.jpg" width=152 height=107 align=middle alt="Janka Kupala street">
+				</td>
+				<td>
+					<img src="Images/opera.jpg" width=152 height=107 align=middle alt="opera and ballet theatre">
+				</td>
+			</tr>
+			<tr align=center>
+				<td>Троицкое предместье</td>
+				<td>Улица Ленина</td>
+				<td>Парк Янки Купалы</td>
+				<td>Театр оперы и балета</td>
+			</tr>
+		</table>
+		<br> <br>
+
+		<div align=center>
+			Заполните анкету
+		</div>
+
+		<br>
+		<table align=center width=611 height=270 border=4 bordercolor="#99ccff" cellpadding=3>
+			<form action="mailto:vincenvon@gmail.com" name="questionnaire">
+				<tr>
+					<td>
+						<table frame=void rules=none>
+							<tr>
+								<td>Пожалуйста, напишите своё имя</td>
+								<td>
+									<input type=text size=15>
+								</td>
+							</tr>
+							<tr height=13></tr>
+							<tr>
+								<td>Вы считаете себя патриотом своего города?</td>
+								<td>
+									<input type=radio name="answer" checked> Да
+									<input type=radio name="answer"> Нет
+								</td>
+							</tr>
+							<tr height=13></tr>
+							<tr>
+								<td>Выберите наиболее любимые места города</td>
+								<td>
+									<select name="places">
+										<option selected value="m-square"> Михайловский сквер
+										<option value="v-square"> Площадь Победы
+										<option value="lenin-street"> Улица Ленина
+										<option value="drozdy-park"> Парк "Дрозды"
+										<option value="botanichesky-sad"> Ботанический сад
+										<option value="chelyuskinetes-park"> Парк Челюскинцев
+										<option value="planetarium"> Минский планетарий
+										<option value="trinity-suburb"> Троицкое предместье
+										<option value="opera-ballet-theatre"> Театр оперы и балета
+										<option value="janka-kupala-park"> Парк им. Янки Купалы
+									</select>
+								</td>
+							</tr>
+							<tr height=13></tr>
+							<tr>
+								<td>Знаете ли Вы историю города?</td>
+								<td>
+									<input type=checkbox name="no"> Нет
+									<input type=checkbox name="middle"> Совсем немного
+									<input type=checkbox name="yes" checked> Да
+								</td>
+							</tr>
+							<tr height=13></tr>
+							<tr>
+								<td>Пара слов о Минске:</td>
+								<td>
+									<textarea name="words" rows=3 cols=38></textarea>
+								</td>
+							</tr>
+							<tr height=12></tr>
+							<tr align=center>
+								<td>
+									<input type=submit name="finish"
+										value="&nbsp;&nbsp;&nbsp; Принять анкету &nbsp;&nbsp;&nbsp;">
+								</td>
+								<td>
+									<input type=reset name="clear"
+										value="&nbsp;&nbsp;&nbsp;&nbsp; Очистить анкету &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</form>
+		</table>
+</body>
+
+</html>
